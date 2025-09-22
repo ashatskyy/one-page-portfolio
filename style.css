@@ -267,12 +267,18 @@ header button {
   /* background-color: var(--black_900); */
 }
 
-header button:hover {
-  cursor: pointer;
+/* header button:hover {
+ 
+} */
+
+/* Only apply hover effects if the device has a real hover capability (like a mouse) */
+@media (hover: hover) and (pointer: fine) {
+  header button:hover {
+     cursor: pointer;
   color: var(--bg_main);
   background-color: var(--black_900);
+  }
 }
-
 
 .hero button {
   background-color: var(--black_900);
