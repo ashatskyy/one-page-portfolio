@@ -42,7 +42,7 @@
       </section>
 
       <section class="hero-image-section">
-        <!-- <div class="curve"></div> -->
+       
       </section>
 
       <section class="fun-facts">
@@ -63,23 +63,58 @@
           </div>
         </div>
       </section>
+
       <section class="testimonial-section">
         <div class="testimonail-author-image-container">
 					<img src="./public/images/pattern-curved-line-2.svg" alt="" class="pattern-curved-line">
-          <picture class="testimonial-author-image">
+
+
+          <!-- <picture class="testimonial-author-image">
             <source
               srcset="./public/images/image-jeremy-large@2x.webp 2x"
               type="image/webp"
             />
             <img
-              src="./public/images/image-jeremy-large@2x.jpg"
+              src="./public/images/image-jeremy-large@2x.png"
               alt="Portrait of Jeremy"
               loading="lazy"
             />
-          </picture>
+          </picture> -->
+
+
+<picture class="testimonial-author-image">
+    <!-- WebP modern browsers -->
+    <source 
+      srcset="
+        ./public/images/image-jeremy-large.webp 1x,
+        ./public/images/image-jeremy-large@2x.webp 2x
+      " 
+      type="image/webp"
+    />
+    <!-- PNG fallback for browsers without WebP -->
+    <source 
+      srcset="
+        ./public/images/mage-jeremy-large.png 1x,
+        ./public/images/image-jeremy-large@2x.png 2x
+      " 
+      type="image/png"
+    />
+    <!-- ultimate fallback JPG for very old browsers -->
+    <img 
+      src="./public/images/image-jeremy-large@2x.jpg" 
+      alt="Portrait of Jeremy" 
+      loading="lazy"
+    />
+  </picture>
+
+
 
           <div class="blured-circle"></div>
         </div>
+
+
+
+				
         <div class="testimonial-content">
           <div class="testimonail-text">
             <h2>It just <span>works.</span></h2>
@@ -99,26 +134,35 @@
 
     <footer>
       <div class="footer-content">
-        <img src="./public/images/logo.svg" alt="Logo" class="footer-logo" />
+        <img src="./public/images/logo.svg" alt="Logo" class="logo" />
 
-        <div class="footer__copyright">Copyright - Suite</div>
+        <div class="copyright">Copyright - Suite</div>
 
-        <div class="footer__social-icons">
-          <img
-            src="./public/images/icon-facebook.svg"
-            alt=""
-            class="footer__icon"
-          />
-          <img
-            src="./public/images/icon-twitter.svg"
-            alt=""
-            class="footer__icon"
-          />
-          <img
-            src="./public/images/icon-instagram.svg"
-            alt=""
-            class="footer__icon"
-          />
+        <div class="icons">
+					<a href="">
+						<img
+							src="./public/images/icon-facebook.svg"
+							alt=""
+							class="icon --facebook"
+						/>
+
+					</a>
+					<a href="">
+
+						<img
+							src="./public/images/icon-twitter.svg"
+							alt=""
+							class="icon"
+						/>
+					</a>
+					<a href="">
+
+						<img
+							src="./public/images/icon-instagram.svg"
+							alt=""
+							class="icon"
+						/>
+					</a>
         </div>
       </div>
     </footer>
