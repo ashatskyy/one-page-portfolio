@@ -102,9 +102,15 @@ header button {
 	}
 }
 
-@media (hover: none) and (pointer: coarse) {
+/* @media (hover: none) and (pointer: coarse) {
   header button {
     -webkit-tap-highlight-color: var(--black_900);
+  }
+} */
+
+@media (hover: none) and (pointer: coarse) {
+  header button {
+    -webkit-tap-highlight-color: transparent;
   }
 }
 
