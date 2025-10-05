@@ -331,6 +331,18 @@ main {
 }
 
 
+@media (hover: none) and (pointer: coarse) {
+  header button {
+    -webkit-tap-highlight-color: transparent;
+    transition: all 0.15s ease;
+  }
+
+  header button:active {
+
+    background-color: linear-gradient(135deg, #a060ff 0%, #cb30e3 49.21%, #ffa84e 100%);
+  }
+}
+
 
 
 
@@ -763,7 +775,7 @@ footer .icons {
   width: 124px;
   height: 20px;
   display: flex;
-
+user-select: none;
   justify-content: space-between;
 }
 
