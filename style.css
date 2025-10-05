@@ -66,7 +66,6 @@ header img {
 
 
 
-
 button {
   border: 1px solid #172339;
   font-size: clamp(0px, 4.44vw, 16px);
@@ -101,6 +100,12 @@ header button {
 		color: var(--bg_main);
 		background-color: var(--black_900);
 	}
+}
+
+@media (hover: none) and (pointer: coarse) {
+  header button {
+    -webkit-tap-highlight-color: var(--black_900);
+  }
 }
 
 @media (max-width: 575px) {
@@ -302,6 +307,9 @@ main {
 		background: linear-gradient(135deg, #a060ff 0%, #cb30e3 49.21%, #ffa84e 100%);
 	}
 }
+
+
+
 
 
 @media (max-width: 1024px) {
