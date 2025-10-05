@@ -78,6 +78,8 @@ button {
   cursor: pointer;
 
   outline: none; 
+
+	user-select: none;
 }
 
 button:focus-visible {
@@ -102,17 +104,31 @@ header button {
 	}
 }
 
+
+@media (hover: none) and (pointer: coarse) {
+  header button {
+    -webkit-tap-highlight-color: transparent;
+    /* transition: all 0.15s ease; */
+  }
+
+  header button:active {
+    color: #ffffff;
+    background-color: var(--black_900);
+  }
+}
+
+
 /* @media (hover: none) and (pointer: coarse) {
   header button {
     -webkit-tap-highlight-color: var(--black_900);
   }
 } */
 
-@media (hover: none) and (pointer: coarse) {
+/* @media (hover: none) and (pointer: coarse) {
   header button {
     -webkit-tap-highlight-color: transparent;
   }
-}
+} */
 
 @media (max-width: 575px) {
   header button {
