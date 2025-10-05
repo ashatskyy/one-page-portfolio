@@ -332,12 +332,12 @@ main {
 
 
 @media (hover: none) and (pointer: coarse) {
-  header button {
+  .hero button {
     -webkit-tap-highlight-color: transparent;
     transition: all 0.15s ease;
   }
 
-  header button:active {
+  .hero button:active {
 
     background-color: linear-gradient(135deg, #a060ff 0%, #cb30e3 49.21%, #ffa84e 100%);
   }
