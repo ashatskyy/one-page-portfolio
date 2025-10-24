@@ -17,10 +17,16 @@
   --container-padding-mob-left-right: clamp(0px, 4.27vw, 16px);
 }
 
+/* html {
+    scroll-behavior: smooth;
+} */
+
 body {
   margin: 0;
 
   font-family: "Epilogue", "sans-serif";
+
+	 /* font-family: "Epilogue", "Helvetica Neue", Helvetica, Arial, sans-serif; */
 }
 
 /* HEADER */
@@ -67,6 +73,7 @@ header img {
 
 
 button {
+	font-family: inherit;
   border: 1px solid #172339;
   font-size: clamp(0px, 4.44vw, 16px);
   border-radius: 6px;
