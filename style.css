@@ -23,10 +23,7 @@
 
 body {
   margin: 0;
-
-  font-family: "Epilogue", "sans-serif";
-
-	 /* font-family: "Epilogue", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  font-family: "Epilogue", sans-serif;
 }
 
 /* HEADER */
