@@ -3,7 +3,7 @@
 
     const isFirefox = typeof InstallTrigger !== 'undefined';
 
-    const scrollAmountMultiplier = 2; 
+    const scrollAmountMultiplier = 0.7; 
 
     if (isFirefox) {
         document.addEventListener('wheel', (e) => {
