@@ -21,6 +21,35 @@
     scroll-behavior: smooth;
 } */
 
+/* epilogue-300 - latin */
+@font-face {
+  /* font-display: swap;  */
+  font-display: block; 
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 300;
+  src: url('./public/fonts/epilogue-v20-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* epilogue-regular - latin */
+@font-face {
+  /* font-display: swap;  */
+  font-display:block; 
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./public/fonts/epilogue-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* epilogue-700 - latin */
+@font-face {
+  /* font-display: swap;  */
+  font-display:block; 
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./public/fonts/epilogue-v20-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
 body {
   margin: 0;
   font-family: "Epilogue", sans-serif;
