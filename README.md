@@ -15,5 +15,5 @@ My portfolio is a nice one-page commercial website. Graceful, fully responsive l
 ## Available at the following web address
 https://ashatskyy.github.io/one-page-portfolio/
 
-## Autor
+## Author
 Alexander Shatsky
