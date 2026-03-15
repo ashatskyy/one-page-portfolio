@@ -1,16 +1,15 @@
-# One page website "suite"
+# One Page Website "suite"
 
 ## Description
-My portfolio is a nice one-page commercial website. Graceful, fully responsive layout. Nice and easy. Pixel-perfect implementation based on a Figma design file.
+Graceful, fully responsive layout. Pixel-perfect implementation based on a Figma design file for a one-page commercial website. Nice and easy to perceive.
 
 ## Features
-- Responsive Design: Works seamlessly on desktop, tablet, and mobile devices.
-- Renders Correctly: Across all modern browsers.
+- Responsive design: works seamlessly on desktop, tablet, and mobile devices
+- Renders correctly: across all modern browsers
 
 ## Technologies
 - HTML
 - CSS
-
 
 ## Available at the following web address
 https://ashatskyy.github.io/one-page-portfolio/
